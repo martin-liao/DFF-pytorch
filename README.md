@@ -1,4 +1,4 @@
-# DFF-pytorch
+# Dynamic Feature Fusion for Semantic Edge Detection (Pure Modern Python)
 Modern  Pytorch implementation of Dynamic Feature Fusion for Semantic Edge detection(IJCAI 2019,nonoffical) and image semantic edge detection part of our new work:**Online Calibration of LiDAR and Camera Based on Semantic Edge**(we will released this work after papered accepted).The offical reposity could be found [here](https://github.com/Lavender105/DFF).
 ![flow](https://github.com/Lavender105/DFF/blob/master/img/overview.png?raw=true)
 ![arc](https://github.com/Lavender105/DFF/raw/master/img/visualization.png)
