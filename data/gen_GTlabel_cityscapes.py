@@ -37,7 +37,7 @@ def generate_GroundTrueth_Edgemap(city_folder,edge_city_folder,vis_folder,city,r
                 edge_semmap[idx_cls] = seg2edge_fast(seg_map,edge_binmap,2,[])
                 edge_semmap_splist.append(coo_matrix(edge_semmap[idx_cls]))
             else:
-                 edge_semmap_splist.append(coo_matrix(np.zeros_like(seg_map,dtype = np.bool_)))    
+                edge_semmap_splist.append(coo_matrix(np.zeros_like(label_np,dtype = np.bool_)))    
         edge_semmap_sparr = np.array(edge_semmap_splist)
 
         # visualize generated multi-semantic edge map

@@ -94,7 +94,7 @@ def seg2edge_fast(seg_np,edge_bin,r = 2,label_ignore = None):
     numPxlImage = len(X)
     numPxlNeigh = len(x)
 
-    idxEdge = np.zeros((numPxlImage,1))
+    idxEdge = np.zeros((numPxlImage,1),dtype = np.bool_)
     for i in range(numPxlNeigh):
         XNeigh = X_cand+x[i]
         YNeigh = Y_cand+y[i]
