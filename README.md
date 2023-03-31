@@ -15,7 +15,7 @@ The official project released their pretrained model on SBD and Cityscapes datas
 ### !!Warning
 If you want to predict semantic edge on KITTI dataset,we suggest to transform the pretrained model of Cityscapes directly rather than training on KITTI-Semantic Dataset.We have test several times ,including training from scratch,fine-tuning based on pretrained model,all of them failed without exception.The reason is resolution of images provided by KITTI Dataset is horrible(only 370*1220,approxiamately 1/4 of Cityscapes). 
 ### Notation
-This reposity is just a pure Python3 type of DFF without modify.Furthermore,We provide Python3 codes for ground truth labeling and prediction images visualization,both KITTI-Odometry Dataset and Cityscapes Dataset,following the guidance of CASENet. Please read the [paper] to get into details (https://arxiv.org/abs/1705.09759).
+This reposity is just a pure Python3 type of DFF without modify.Furthermore,We provide Python3 codes for ground truth labeling and prediction images visualization,both KITTI-Odometry Dataset and Cityscapes Dataset,following the guidance of CASENet. Please read the [paper](https://arxiv.org/abs/1705.09759) to get into details .
 ## data preprocessing
 Please look for data folder and find ..._GTlabel....py. This script is just a python3 implementation of GT generation files in DFF, but slightly different from those in CaseNet (instance-aware label vs instance-unaware label). 
 ## training
